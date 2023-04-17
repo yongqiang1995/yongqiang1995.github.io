@@ -2,7 +2,7 @@
 title: "「SF-PLF」9 MoreStlc"
 subtitle: "Programming Language Foundations - More on The Simply Typed Lambda-Calculus"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

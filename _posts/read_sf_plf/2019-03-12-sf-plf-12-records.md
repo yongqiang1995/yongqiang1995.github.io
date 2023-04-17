@@ -2,7 +2,7 @@
 title: "「SF-PLF」12 Records"
 subtitle: "Programming Language Foundations - Adding Records To STLC"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

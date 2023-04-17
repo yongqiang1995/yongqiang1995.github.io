@@ -2,7 +2,7 @@
 title: "「SF-LC」2 Induction"
 subtitle: "Logical Foundations - Proof by Induction"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

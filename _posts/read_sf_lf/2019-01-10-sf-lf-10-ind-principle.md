@@ -2,7 +2,7 @@
 title: "「SF-LC」10 IndPrinciples"
 subtitle: "Logical Foundations - Induction Principles"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

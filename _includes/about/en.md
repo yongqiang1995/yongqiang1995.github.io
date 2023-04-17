@@ -1,4 +1,4 @@
-Hey, I am Huang, Xuan (a.k.a. _@huxpro_). I worked on the [React Team](https://beta.reactjs.org/community/meet-the-team#react-core) at <del>Facebook</del>Meta.
+Hey, I am Huang, Xuan (a.k.a. _@TaoTao-Hupro_). I worked on the [React Team](https://beta.reactjs.org/community/meet-the-team#react-core) at <del>Facebook</del>Meta.
 
 I considered myself as a hybrid between a software engineer specifically into the programming languages theories and implementations domain (i.e. compiler, type system, type-based formal verification, virtual machine, runtime systems, garbage collection), and a creative technologiest deeply caring about many humanistic aspects (e.g. visual, sound, interaction) in UI and HCI in general.
 
@@ -17,7 +17,7 @@ I studied BA, Digital Media Art at [Communication University of China](https://e
 - [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
 - Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
 - The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
+- PWA Rehashing · TaoTao-Hudu HQ Beijing 2017
 - [Service Worker 101][5] · GDG DevFest Beijing 2016
 - [Progressive Web Apps][4] · QCon Shanghai 2016
 - Progressive Web App in my POV · GDG IO Redux Beijing 2016

@@ -2,7 +2,7 @@
 layout: post
 title: "Web 在继续离我们远去"
 subtitle: "After the release of Wechat Mini-Program"
-author: "Hux"
+author: "TaoTao-Hu"
 header-img: "img/post-bg-web.jpg"
 header-mask: 0.4
 tags:
@@ -44,7 +44,7 @@ tags:
 
 毕竟，Web 的概念里理应包含着 Open。
 
-（这篇文章的本意并不是为了 advocate PWA，但如果你对 PWA 有兴趣，欢迎阅读： [黄玄：下一代 Web 应用模型 — Progressive Web App​zhuanlan.zhihu.com!](https://zhuanlan.zhihu.com/p/25167289)
+（这篇文章的本意并不是为了 advocate PWA，但如果你对 PWA 有兴趣，欢迎阅读： [胡桃桃：下一代 Web 应用模型 — Progressive Web App​zhuanlan.zhihu.com!](https://zhuanlan.zhihu.com/p/25167289)
 
 如果说 Hybrid 架构还只是 Web 理想主义的一次让步，那么 React Native 的出现则无疑让部分人的信仰崩塌，然后是 Weex，然后可能是你们猜的微信。
 

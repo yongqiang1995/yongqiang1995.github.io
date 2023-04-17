@@ -2,7 +2,7 @@
 title: "「SF-LC」5 Tactics"
 subtitle: "Logical Foundations - More Basic Tactics"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:
