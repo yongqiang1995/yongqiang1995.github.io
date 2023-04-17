@@ -3,7 +3,7 @@ layout:     post
 title:      "下一代 Web 应用模型 —— Progressive Web App"
 subtitle:   "The Next Generation Application Model For The Web - Progressive Web App"
 date:       2017-02-09 12:00:00
-author:     "Hux"
+author:     "TaoTao-Hu"
 header-img: "img/post-bg-nextgen-web-pwa.jpg"
 header-mask: 0.3
 catalog:    true
@@ -14,7 +14,7 @@ tags:
 
 
 > 今年 9 月份的时候，《程序员》杂志社就邀请我写一篇关于 PWA 的文章。后来花式拖稿，拖过了 10 月的 QCon，11 月的 GDG DevFest，终于在 12 月把这篇长文熬了出来。几次分享的不成熟，这次的结构算是比较满意了。「 可能是目前中文世界里对 PWA 最全面详细的长文了」，希望你能喜欢。<br><br>
-> 本文首发于 [CSDN](http://geek.csdn.net/news/detail/135595) 与《程序员》2017 年 2 月刊，同步发布于 [Hux Blog](https://huangxuan.me)、[前端外刊评论 - 知乎专栏](https://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留链接 ;)
+> 本文首发于 [CSDN](http://geek.csdn.net/news/detail/135595) 与《程序员》2017 年 2 月刊，同步发布于 [TaoTao-Hu Blog](https://huangxuan.me)、[前端外刊评论 - 知乎专栏](https://zhuanlan.zhihu.com/FrontendMagazine)，转载请保留链接 ;)
 
 
 ## 下一代 Web 应用？
@@ -35,13 +35,13 @@ Progressive Web Apps（以下简称 PWA）以及构成 PWA 的一系列关键技
 将这些技术组合在一起会是怎样的效果呢？「印度阿里巴巴」 —— [Flipkart][17] 在 2015 年一度关闭了自己的移动端网站，却在年底发布了现在最为人津津乐道的 PWA 案例 *FlipKart Lite*，成为世界上第一个支撑大规模业务的 PWA。发布的一周后它就亮相于 [Chrome Dev Summit 2015][15] 上，笔者当时就被惊艳到了。为了方便各媒介上的读者观看，笔者做了几幅图方便给大家介绍：
 
 ![](/img/in-post/post-nextgen-web-pwa/flipkart-1.jpeg)
-*图片来源: Hux & [Medium.com][i3]*
+*图片来源: TaoTao-Hu & [Medium.com][i3]*
 
 当浏览器发现用户[需要][16] Flipkart Lite 时，它就会提示用户「嘿，你可以把它添加至主屏哦」（用户也可以手动添加）。这样，Flipkart Lite 就会像原生应用一样在主屏上留下一个自定义的 icon 作为入口；与一般的书签不同，当用户点击 icon 时，Flipkat Lite 将直接全屏打开，不再受困于浏览器的 UI 中，而且有自己的启动屏效果。
 
 
 ![](/img/in-post/post-nextgen-web-pwa/flipkart-2.jpeg)
-*图片来源: Hux & [Medium.com][i3]*
+*图片来源: TaoTao-Hu & [Medium.com][i3]*
 
 更强大的是，在无法访问网络时，Flipkart Lite 可以像原生应用一样照常执行，还会很骚气的变成黑白色；不但如此，曾经访问过的商品都会被缓存下来得以在离线时继续访问。在商品降价、促销等时刻，Flipkart Lite 会像原生应用一样发起推送通知，吸引用户回到应用。
 
@@ -50,9 +50,9 @@ Progressive Web Apps（以下简称 PWA）以及构成 PWA 的一系列关键技
 更令笔者兴奋的是，就在今年 11 月的 [Chrome Dev Summit 2016][18] 上，Chrome 的工程 VP Darin Fisher 介绍了 Chrome 团队正在做的一些实验：把「添加至主屏」重命名为「安装」，被安装的 PWA 不再仅以 widget 的形式显示在桌面上，而是真正做到与所有原生应用平级，一样被收纳进应用抽屉（App Drawer）里，一样出现在系统设置中 🎉🎉🎉。
 
 ![](/img/in-post/post-nextgen-web-pwa/flipkart-3.jpeg)
-*图片来源: Hux & [@adityapunjani][i4]*
+*图片来源: TaoTao-Hu & [@adityapunjani][i4]*
 
-图中从左到右分别为：类似原生应用的安装界面；被收纳在应用抽屉里的 Flipkart Lite 与 Hux Blog；设置界面中并列出现的 Flipkart 原生应用与 Flipkart Lite PWA （可以看到 PWA 巨大的体积优势）
+图中从左到右分别为：类似原生应用的安装界面；被收纳在应用抽屉里的 Flipkart Lite 与 TaoTao-Hu Blog；设置界面中并列出现的 Flipkart 原生应用与 Flipkart Lite PWA （可以看到 PWA 巨大的体积优势）
 
 **笔者相信，PWA 模型将继约 20 年前横空出世的 Ajax 与约 10 年前风靡移动互联网的响应式设计之后，掀起 web 应用模型的第三次根本性革命，将 web 应用带进一个全新的时代。**
 
@@ -125,7 +125,7 @@ Web App Manifest，即通过一个清单文件向浏览器暴露 web 应用的�
 诸如 `name`、`icons`、`display` 都是我们比较熟悉的，而大部分新增的成员则为 web 应用带来了一系列以前 web 应用想做却做不到（或在之前只能靠 hack）的新特性：
 
 - `scope`：定义了 web 应用的浏览作用域，比如作用域外的 URL 就会打开浏览器而不会在当前 PWA 里继续浏览。
-- `start_url`：定义了一个 PWA 的入口页面。比如说你添加 [Hux Blog][21] 的任何一个文章到主屏，从主屏打开时都会访问 [Hux Blog][21] 的主页。
+- `start_url`：定义了一个 PWA 的入口页面。比如说你添加 [TaoTao-Hu Blog][21] 的任何一个文章到主屏，从主屏打开时都会访问 [TaoTao-Hu Blog][21] 的主页。
 - `orientation`：终于，我们可以锁定屏幕旋转了（喜极而泣…）
 - `theme_color`/`background_color`：主题色与背景色，用于配置一些可定制的操作系统 UI 以提高用户体验，比如 Android 的状态栏、任务栏等。
 
@@ -234,7 +234,7 @@ self.onfetch = (e) => {
 ![](/img/in-post/post-nextgen-web-pwa/sw-race.png)
 *Service Worker 的一种缓存策略：让网络请求与读取缓存比赛*
 
-你也可以尝试在支持 PWA 的浏览器中访问笔者的博客 [Hux Blog][21]，感受 Service Worker 的实际效果：所有访问过的页面都会被缓存并允许在离线环境下继续访问，所有未访问过的页面则会在离线环境下展示一个自定义的离线页面。
+你也可以尝试在支持 PWA 的浏览器中访问笔者的博客 [TaoTao-Hu Blog][21]，感受 Service Worker 的实际效果：所有访问过的页面都会被缓存并允许在离线环境下继续访问，所有未访问过的页面则会在离线环境下展示一个自定义的离线页面。
 
 在笔者看来，**Service Worker 对 PWA 的重要性相当于 `XMLHTTPRequest` 之于 Ajax，媒体查询（Media Query）之于响应式设计，是支撑 PWA 作为「下一代 web 应用模型」的最核心技术。**由于 Service Worker 可以与包括 Indexed DB、Streams 在内的大部分 DOM 无关 API 进行交互，它的潜力简直无可限量。笔者几乎可以断言，Service Worker 将在未来十年里成为 web 客户端技术工程化的兵家必争之地，带来「离线优先（Offline-first）」的架构革命。
 
@@ -306,7 +306,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 要知道，虽然用户花在原生应用上的时间要明显多于 web 应用，但其中[有 80% 的时间是花在前五个应用中的][31]。[调查显示，美国有一半的智能手机用户平均每月新 App 安装量为零][32]，而月均网站访问量却有 100 个，更别提 Google Play 上[有 60% 的应用从未被人下载过了][33]。于是，整个行业的产品策略清一色地**「拿鱼换熊掌」**，比如笔者的老东家阿里旅行（飞猪旅行），web 应用布满阿里系各种渠道，提供「优秀的第一手体验」，等你用的开心了，再引诱你去下载安装原生应用。
 
 ![](/img/in-post/post-nextgen-web-pwa/PWAR-014+PWA.jpeg)
-*原生应用、当代 Web 与 PWA 图片来源: Hux & [Google][i2]*
+*原生应用、当代 Web 与 PWA 图片来源: TaoTao-Hu & [Google][i2]*
 
 但是，PWA 的出现，让鱼与熊掌兼得变成了可能 —— 它同时具备了 web 应用与原生应用的优点，有着自己独有的先进性：「浏览器 -> 添加至主屏/安装 -> 具备原生应用体验的 PWA -> 推送通知 -> 具备原生应用体验的 PWA」，PWA 自身就包含着从拉新到保活的闭环。
 
@@ -362,7 +362,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 
 **让我们的用户，也像我们这般热爱 web 吧。**
 
-黄玄，于 12 月的北京。
+胡桃桃，于 12 月的北京。
 
 ---
 
@@ -409,7 +409,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 
 [20]: https://msdn.microsoft.com/en-us/library/dn320426%28v=vs.85%29.aspx "Browser configuration schema reference - MSDN"
 
-[21]: https://huangxuan.me "Hux Blog"
+[21]: https://huangxuan.me "TaoTao-Hu Blog"
 
 [22]: https://www.html5rocks.com/en/tutorials/notifications/quick/ "Using the Notification API"
 
@@ -425,7 +425,7 @@ PWA 作为一个涵盖性术语，与过往的这些或多或少通过私有平�
 
 [28]: https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/ "Progressive Web Apps: Escaping Tabs Without Losing Our Soul"
 
-[29]: https://github.com/Huxpro/sw-101-gdgdf
+[29]: https://github.com/TaoTao-Hupro/sw-101-gdgdf
 
 [30]: developers.google.com/web/updates/2015/12/background-sync "Background Sync - Google Developers"
 

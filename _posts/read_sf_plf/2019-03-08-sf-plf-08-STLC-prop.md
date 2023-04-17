@@ -2,7 +2,7 @@
 title: "「SF-PLF」8 StlcProp"
 subtitle: "Programming Language Foundations - Properties of STLC"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

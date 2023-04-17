@@ -1,11 +1,11 @@
 # Site settings
-title: Hux Blog
-SEOTitle: 黄玄的博客 | Hux Blog
+title: TaoTao-Hu Blog
+SEOTitle: 胡桃桃的博客 | TaoTao-Hu Blog
 header-img: img/home-bg.jpg
-email: huxpro@gmail.com
-description: "这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
-url: "https://huangxuan.me" # your host, for absolute URL
+email: TaoTao-Hupro@gmail.com
+description: "这里是 @TaoTao-Hu胡桃桃 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
+keyword: "胡桃桃, TaoTao-Hu胡桃桃, TaoTao-Hu, 鬼栈, TaoTao-Hupro, @TaoTao-Hupro, 胡桃桃的博客, TaoTao-Hu Blog, 博客, 个人网站, 互联网, Web, JavaScript, Deep Learning, Neural Network, 全栈, 算法工程师"
+url: "https://taotaohu.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -13,11 +13,11 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username: huxpro
-zhihu_username: huxpro
-github_username: huxpro
-twitter_username: huxpro
-#facebook_username:  huxpro
+weibo_username: TaoTao-Hupro
+zhihu_username: TaoTao-Hupro
+github_username: TaoTao-Hupro
+twitter_username: TaoTao-Hupro
+#facebook_username:  TaoTao-Hupro
 #linkedin_username:  firstname-lastname-idxxxx
 
 # Build settings
@@ -59,23 +59,23 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: TaoTao-Hu
 
 # Netease settings
 netease_comment: false
 
 # Analytics settings
-# Baidu Analytics
+# TaoTao-Hudu Analytics
 # ba_track_id: [your track id]
 
 # Google Analytics
 ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_domain: taotaohu.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "要成为顶尖的算法工程师 <br> React Team @ Meta"
+sidebar-avatar: https://github.com/TaoTao-Hupro.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags

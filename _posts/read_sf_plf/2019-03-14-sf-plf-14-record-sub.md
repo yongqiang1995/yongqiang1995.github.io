@@ -2,7 +2,7 @@
 title: "「SF-PLF」14 RecordSub"
 subtitle: "Programming Language Foundations - Subtyping with Records"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

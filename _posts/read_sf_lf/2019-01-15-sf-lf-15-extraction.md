@@ -2,7 +2,7 @@
 title: "「SF-LC」15 Extraction"
 subtitle: "Logical Foundations - Extracting ML From Coq"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

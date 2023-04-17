@@ -2,7 +2,7 @@
 title: "「SF-PLF」4 HoareAsLogic"
 subtitle: "Programming Language Foundations - Hoare Logic as a Logic"
 layout: post
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 hidden: true
 tags:

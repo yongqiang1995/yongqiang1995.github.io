@@ -3,7 +3,7 @@ layout:     post
 title:      "JavaScript Module Loader"
 subtitle:   "CommonJS，RequireJS，SeaJS 归纳笔记"
 date:       2015-05-25
-author:     "Hux"
+author:     "TaoTao-Hu"
 header-img: "img/post-bg-js-module.jpg"
 catalog: true
 published: false

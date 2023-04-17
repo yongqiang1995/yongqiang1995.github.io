@@ -2,7 +2,7 @@
 layout: post
 title: "My Spacemacs Workflow"
 subtitle: 'From Vim to Spacemacs'
-author: "Hux"
+author: "TaoTao-Hu"
 header-style: text
 published: false
 tags:
