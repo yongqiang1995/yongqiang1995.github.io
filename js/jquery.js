@@ -4403,7 +4403,7 @@ jQuery.event = {
 		args[0] = event;
 		event.delegateTarget = this;
 
-		// Call the preDispatch hook for the mapped type, and let it TaoTao-Hul if desired
+		// Call the preDispatch hook for the mapped type, and let it bail if desired
 		if ( special.preDispatch && special.preDispatch.call( this, event ) === false ) {
 			return;
 		}
