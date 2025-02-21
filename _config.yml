@@ -1,5 +1,5 @@
 # Site settings
-title: YongQiang Blog
+title: YoQ Blog
 SEOTitle: 勇强的博客 | YongQiang Blog
 header-img: img/home-bg.jpg
 email: byq0502@gmail.com
@@ -42,7 +42,11 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-plugins: [jekyll-paginate]
+# plugins: [jekyll-paginate]
+plugins:
+  - jekyll-paginate
+  # - jekyll-gist
+  # - jemoji
 
 # Markdown settings
 # replace redcarpet to kramdown,
@@ -74,7 +78,7 @@ ga_domain: yongqiang.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
+sidebar-about-description: "资深炼丹员, 深度学习专家 😁😁 <br> React Team @ OPENAI"
 sidebar-avatar: https://github.com/yongqiang1995.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags

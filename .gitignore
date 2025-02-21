@@ -3,6 +3,11 @@ __pycache__/
 .DS_Store
 *.py[cod]
 *$py.class
+.bundle/
+_site/
+*.lock
+node_modules/
+vendor/
 
 # C extensions
 *.so

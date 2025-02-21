@@ -13,12 +13,16 @@ layout: default
 <article>
     <div class="container">
         <div class="row">
-
-    <!-- Post Container -->
+            <!-- <div class="post-meta">
+                <span>本文总共 {{ page.content | strip_html | strip_newlines | remove: " " | size }} 字 <b>·</b> 阅读全文大约需要 {{ page.content | strip_html | strip_newlines | remove: " " | size | divided_by: 350 | plus: 1 }} 分钟</span>
+            </div> -->
+            <!-- Post Container -->
             <div class="
                 col-lg-8 col-lg-offset-2
                 col-md-10 col-md-offset-1
                 post-container">
+                <!-- imgzoomin -->
+                {% include clickable-image.html %}
 
                 <!-- Multi-Lingual -->
                 {% if page.multilingual %}
@@ -61,6 +65,7 @@ layout: default
                 <div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
                 <!-- 网易云跟帖 评论框 end -->
                 {% endif %}
+                {% include clickable-image.html %}
             </div>  
 
     <!-- Side Catalog Container -->
