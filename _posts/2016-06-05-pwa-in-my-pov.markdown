@@ -2,7 +2,7 @@
 layout:     keynote
 title:      "Progressive Web App 之我见"
 subtitle:   "🎞  Slides:Progressive Web App, in my points of view"
-iframe:     "//huangxuan.me/pwa-in-my-pov/"
+iframe:     "//yongqiang1995.github.io/pwa-in-my-pov/"
 nav-style:  "invert"
 date:       2016-06-05
 author:     "Hux"
@@ -15,10 +15,10 @@ tags:
 
 > 下滑这里查看更多内容
 
-### [Watching Fullscreen →](https://huangxuan.me/pwa-in-my-pov/)
+### [Watching Fullscreen →](https://yongqiang1995.github.io/pwa-in-my-pov/)
 
 <div class="visible-md visible-lg">
-    <img src="//huangxuan.me/pwa-in-my-pov/attach/qrcode.png" width="350" />
+    <img src="//yongqiang1995.github.io/pwa-in-my-pov/attach/qrcode.png" width="350" />
     <small class="img-hint">Scanning on mobile</small>
 </div>
 

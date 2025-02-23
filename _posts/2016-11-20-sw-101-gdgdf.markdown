@@ -2,7 +2,7 @@
 layout:     keynote
 title:      "Service Worker 101「GDG DevFest 2016 北京」"
 subtitle:   "🎞  Slides:Service Worker 101, Working Offline and Instant Loading (GDG DevFest 2016 Beijing)"
-iframe:     "//huangxuan.me/sw-101-gdgdf/"
+iframe:     "//yongqiang1995.github.io/sw-101-gdgdf/"
 navcolor:   "invert"
 date:       2016-11-20
 author:     "Hux"
@@ -18,10 +18,10 @@ tags:
 
 TLDR; It covers lots of cool stuff about Service Worker!
 
-### [Watching Fullscreen → ](https://huangxuan.me/sw-101-gdgdf/)
+### [Watching Fullscreen → ](https://yongqiang1995.github.io/sw-101-gdgdf/)
 
 <div class="visible-md visible-lg">
-    <img src="//huangxuan.me/sw-101-gdgdf/attach/qrcode.png" width="350" />
+    <img src="//yongqiang1995.github.io/sw-101-gdgdf/attach/qrcode.png" width="350" />
     <small class="img-hint">Scanning on mobile</small>
 </div>
 

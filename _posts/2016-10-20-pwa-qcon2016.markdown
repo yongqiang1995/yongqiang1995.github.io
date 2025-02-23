@@ -2,7 +2,7 @@
 layout:     keynote
 title:      "Progressive Web Apps，复兴序章「QCon 上海 2016」"
 subtitle:   "🎞  Slides:Progressive Web Apps, Make Web Great Again. (QCon Shanghai 2016)"
-iframe:     "//huangxuan.me/pwa-qcon2016/"
+iframe:     "//yongqiang1995.github.io/pwa-qcon2016/"
 navcolor:   "invert"
 date:       2016-10-20
 author:     "Hux"
@@ -16,12 +16,12 @@ tags:
 > 下滑这里查看更多内容
 
 
-### [Watching Fullscreen →](https://huangxuan.me/pwa-qcon2016/)
+### [Watching Fullscreen →](https://yongqiang1995.github.io/pwa-qcon2016/)
 
 ### [Watching Video →](http://www.infoq.com/cn/presentations/progressive-web-app)
 
 <div class="visible-md visible-lg">
-    <img src="//huangxuan.me/pwa-qcon2016/attach/qrcode.png" width="350" />
+    <img src="//yongqiang1995.github.io/pwa-qcon2016/attach/qrcode.png" width="350" />
     <small class="img-hint">Scanning on mobile</small>
 </div>
 
