@@ -8,6 +8,7 @@ _site/
 *.lock
 node_modules/
 vendor/
+_posts/novels/
 
 # C extensions
 *.so

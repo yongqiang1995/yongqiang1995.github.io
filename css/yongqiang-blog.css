@@ -1458,13 +1458,14 @@ img::-moz-selection {
 .tags.tags-sup .tag {
   padding: 0 10px 0 12px;
 }
+/* color 字段修改 tags 标签页显示的 tags 颜色 */
 .tags a,
 .tags .tag {
   display: inline-block;
   border: 1px solid rgba(255, 255, 255, 0.8);
   border-radius: 999em;
   padding: 0 10px 0 10px;
-  color: #ffffff;
+  color: #5a5e5e;
   line-height: 24px;
   font-size: 12px;
   text-decoration: none;

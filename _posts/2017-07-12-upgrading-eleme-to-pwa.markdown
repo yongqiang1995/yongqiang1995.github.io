@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "饿了么的 PWA 升级实践"
+title:        "引用测试"
 subtitle:     "Upgrading Ele.me to Progressive Web App"
 date:         2017-07-12 12:00:00
 author:       "Hux"
@@ -8,6 +8,7 @@ header-img:   "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
 header-mask:  0.3
 catalog:      true
 multilingual: true
+published: false # 控制是否被 Jekyll 渲染
 tags:
     - Web
     - PWA

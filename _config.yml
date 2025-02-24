@@ -42,9 +42,10 @@ anchorjs: true # if you want to customize anchor. check out line:181 of `post.ht
 # from PR#40, to support local preview for Jekyll 3.0
 # make sure you have this gem installed
 # `$ gem install jekyll-paginate`
-# plugins: [jekyll-paginate]
-plugins:
-  - jekyll-paginate
+plugins: [jekyll-paginate]
+
+# plugins:
+  # - jekyll-paginate
   # - jekyll-gist
   # - jemoji
 
@@ -87,7 +88,8 @@ featured-condition-size: 1 # A tag will be featured if the size of it is more th
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true
+# service-worker: false  关闭离线功能
+service-worker: false
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
@@ -95,12 +97,7 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "虚位以待", href: "https://github.com/yongqiang1995"}, 
+    { title: "Baidu", href: "http://www.baidu.com/" },
+    { title: "Google", href: "https://www.google.com/" },
   ]
