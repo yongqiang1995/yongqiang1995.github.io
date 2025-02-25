@@ -8,6 +8,7 @@ header-style: text # 博客 title 如果有图像背景, 需要注释
 hidden: false # 是否参与主页推荐
 published: true # 控制是否被 Jekyll 渲染
 catalog: true # 功能不明
+ref_id: "how-to-build-self-blog-with-github"
 tags:
   - git-pages
   - jekyll
@@ -192,51 +193,12 @@ Configuration file: /Users/yongqiang/workspace/yongqiang1995.github.io/_config.y
 $ bundle add webrick
 ```
 
-## Development (Build From Source)
-
-> 如果需要修改主题, 需要本地安装需要 [Grunt](https://gruntjs.com). 你可以在 `Gruntfile.js` 中找到许多任务, 包括最小化 `JavaScript`, 将 `.less` 编译为 `.css`. 与 `jekyll` 相关的关键代码位于 `_include/` 和 `_layouts/` 中, 它们中的大多数是 `Liquid` 模板. 
-
-安装 `Grunt` 之前需要安装 `npm`, 这里使用 `Homebrew` 进行快速安装:
-
-```sh
-$ brew install node
-```
-
-然后使用 `npm` 安装 `grunt-cli` 工具:
-
-```sh
-$ npm i -g grunt-cli
-```
-
-安装之后需要初始化项目依赖包:
-
-```sh
-$ npm init -y && npm install load-grunt-tasks grunt-contrib-clean grunt-contrib-copy grunt-contrib-concat grunt-contrib-cssmin grunt-contrib-watch --save-dev
-```
-
-运行一次以生成初始输出:
-
-```sh
-grunt default
-```
-
-> 关于 `Grunt` 的具体用法我并没有深入了解, 我本身也没有前端开发的经验, 它存在的目的是为了帮我将 `.js` 文件编译成 `.min.js`, 网站在运行时, 吃的是 `.min.js` 和 `.min.css`, 原作者也推荐使用这个依赖.
-
-后来发现还有一个可以生成 `.min.*` 的方法, 如下:
-
-```bash
-$ npm install -g clean-css-cli
-$ npx cleancss -o css/yongqiang-blog.min.css css/yongqiang-blog.css # 这个是作者目前使用的方法
-```
-
 本博客原作者应是 [Hux-Blog](https://github.com/Huxpro/huxpro.github.io), 在它的基础上, 我补充了图像点击放大的功能, 十分感谢原作者提供的模板.
 
 References
 ----------
 
-- <https://en.wikipedia.org/wiki/Floating-point_arithmetic>
-- <https://www3.ntu.edu.sg/home/ehchua/programming/java/datarepresentation.html>
-- <https://pages.github.com/>
-- <https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html>
-- <https://igoutu.cn/icons/set/github>
-- <https://github.com/Huxpro/huxpro.github.io>
+- [icons图标下载](https://igoutu.cn/icons/set/github)
+- [github-pages](https://pages.github.com/)
+- [Jekyll如何实现图片点击放大](https://blog.walterlv.com/post/create-click-to-zoom-image-for-web-pages.html)
+- [Hux-Blog](https://github.com/Huxpro/huxpro.github.io)
