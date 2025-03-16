@@ -88,7 +88,7 @@ featured-condition-size: 1 # A tag will be featured if the size of it is more th
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: true  # 关闭离线功能
+service-worker: false  # is true: app ready for offline use
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
