@@ -1755,3 +1755,52 @@ p img {
   cursor: zoom-in;
 }
 /* 光标遇到图像后转换为放大图标 */
+
+/* 代码块点击复制 */
+/* 默认隐藏按钮 */
+.copy-code-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  /* 确保文字显示在中间, 避免越界 */
+  min-width: 60px;
+  padding: 5px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* 鼠标悬停在代码块时显示按钮 */
+.highlighter-rouge:hover .copy-code-btn {
+  opacity: 1;
+}
+
+/* 确保代码块容器为相对定位 */
+.highlighter-rouge {
+  position: relative;
+}
+
+/* 代码块行数 ≤ 3 行时, 按钮大小调整为相同尺寸, 需要可以手动调 */
+.highlighter-rouge[data-lines="1"] .copy-code-btn,
+.highlighter-rouge[data-lines="2"] .copy-code-btn,
+.highlighter-rouge[data-lines="3"] .copy-code-btn {
+  width: 45px;
+  height: 25px;
+  font-size: 10px;
+}
+
+/* 代码块行数 > 3 行时 */
+.highlighter-rouge[data-lines]:not([data-lines="1"], [data-lines="2"], [data-lines="3"]) .copy-code-btn {
+  width: 45px;
+  height: 25px;
+  font-size: 10px;
+}
+@media (hover: none) {
+  .copy-code-btn {
+    display: none;
+  }
+}
+/* 代码块点击复制 */

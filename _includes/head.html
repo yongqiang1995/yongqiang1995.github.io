@@ -70,6 +70,37 @@
     <script data-ad-client="ca-pub-6487568398225121" async
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
+    <!-- 代码框点击复制 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.querySelectorAll('div.highlighter-rouge').forEach(function(codeBlock) {
+                // 新增：计算代码行数
+                const codeElement = codeBlock.querySelector('code');
+                const lineCount = codeElement.innerText.split('\n').length;
+                codeBlock.setAttribute('data-lines', lineCount); // 注入 data-lines 属性
+
+                // 原有插入按钮逻辑...
+                const btn = document.createElement('button');
+                btn.className = 'copy-code-btn';
+                btn.textContent = 'Copy';
+                codeBlock.prepend(btn);
+
+                btn.addEventListener('click', function() {
+                    let codeElement = codeBlock.querySelector('code');
+                    let rawCode = codeElement.innerText;
+
+                    // 移除行号逻辑（根据实际行号格式调整正则）
+                    rawCode = rawCode.replace(/^\s*\d+\s+/gm, '');
+
+                    navigator.clipboard.writeText(rawCode).then(() => {
+                        btn.textContent = 'Copied!';
+                        setTimeout(() => btn.textContent = 'Copy', 2000);
+                    }).catch(err => console.error('Replication failed:', err));
+                });
+            });
+        });
+    </script>
+
     <!-- CDN-FancyBox-Image-Zoomin -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script> -->
