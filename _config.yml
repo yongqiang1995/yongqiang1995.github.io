@@ -4,7 +4,7 @@ SEOTitle: YongQiang 的博客 | YongQiang Blog
 header-img: img/home-bg.jpg
 email: byq0502@gmail.com
 description: "这里是 @Yongqiang 的个人博客，与你一起发现更大的世界 | 要做一个有 swag 的程序员"
-keyword: "YongQiang, 勇强, 鬼栈, yongqiang1995, @yongqiang1995, YongQiang 的博客, YongQ Blog, 博客, 个人网站, 互联网, Web, JavaScript, React, React Native, 前端, 设计"
+keyword: "YongQiang, 勇强, 幻想师, @yongqiang1995, YongQ Blog, 博客, 个人网站, 互联网, Web, JavaScript, 深度学习, LLM, 数学"
 url: "https://yongqiang.me" # your host, for absolute URL
 baseurl: "" # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -88,7 +88,7 @@ featured-condition-size: 1 # A tag will be featured if the size of it is more th
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: false  # 关闭离线功能
+service-worker: true  # 关闭离线功能
 
 # MathJax rendering for layout:page (e.g. post preview)
 page-mathjax: false
