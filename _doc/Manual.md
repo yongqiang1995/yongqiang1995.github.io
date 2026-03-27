@@ -134,7 +134,7 @@ Etc.
 # Sidebar settings
 sidebar: true   # default true
 sidebar-about-description: "your description here"
-sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
+sidebar-avatar: https://github.com/yongqiang1995.png     # use absolute URL.
 ```
 
 Modules *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* are turned on by default and you can add your own. The sidebar is naturally responsive, i.e. be pushed to bottom in a smaller screen (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
@@ -230,8 +230,8 @@ From V1.5, Google Analytics and Baidu Tongji are supported with a simple config 
 ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: yongqiang1995.github.io
+ga_track_id: 'UA-xxxxxx-xx'            # Format: UA-xxxxxx-xx
+ga_domain: auto
 ```
 
 Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.

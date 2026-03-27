@@ -74,8 +74,8 @@ netease_comment: false
 # ba_track_id: [your track id]
 
 # Google Analytics
-ga_track_id: "UA-49627206-1" # Format: UA-xxxxxx-xx
-ga_domain: yongqiang.me
+# ga_track_id: "UA-xxxxxx-xx" # Format: UA-xxxxxx-xx  (replace with your own GA ID)
+# ga_domain: yongqiang.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.

@@ -1,10 +1,10 @@
-# Hux blog 模板
+# YoQ Blog 模板
 
-### [我的博客在这里](http://huxpro.github.io)
+### [我的博客在这里](https://yongqiang.me)
 
-### [模板在这里](http://yongqiang1995.github.io/huxblog-boilerplate/)
+### [模板在这里](https://yongqiang.me)
 
-我的博客仓库——`huxpro.github.io`，是经常修改的，而且还会有人乱提交代码，因此给大家做了一个稳定版的模板。大家可以直接fork模板——`huxblog-boilerplate`,要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
+我的博客仓库是经常修改的，因此给大家做了一个稳定版的模板。大家可以直接fork模板，要改的地方我都说明了。或者可以直接下载zip到本地自己去修改。
 
 ## 各版本特性
 
@@ -12,7 +12,7 @@
 
 * 当你fork了我的仓库之后，还要删掉里面的关于我的文档是不是感到略烦躁呢？**Boilerplate** 模板将帮助你快速开始，方便合并与更新。
 * `-apple-system`被添加到了字体规则里面了，这套字体格式能将iOS9默认的新字体**San Francisco**表现的非常漂亮。
-* 解决了代码过长自动换行的bug,替换为横向滚动条。详情请见[issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15)
+* 解决了代码过长自动换行的bug,替换为横向滚动条。详情请见[issue#15](https://github.com/yongqiang1995/yongqiang1995.github.io/issues/15)
 
 ###### 其他历史版本个人觉得没有必要了解，看看英文就行了。
 
@@ -20,8 +20,8 @@
 
 ## 支持
 
-* 你可以自由的fork。如果你能将我的信息和github的地址放在你的页面底部做成链接，我将非常感谢你。
-* 如果你喜欢我的这个博客模板，请在`huxpro.github.io`这个repository点个赞——右上角**star**一下。
+* 你可以自由的fork。如果你能将主题作者和 github 的地址保留在你的页面底部，我将非常感谢你。
+* 如果你喜欢我的这个博客模板，请在`yongqiang1995.github.io`这个repository点个赞——右上角**star**一下。
 
 ## 说明文档
 
@@ -56,13 +56,13 @@
 
 ```
 # Site settings
-title: Hux Blog             # 你的博客网站标题
-SEOTitle: Hux Blog			# 在后面会详细谈到
+title: YoQ Blog             # 你的博客网站标题
+SEOTitle: YoQ Blog			# 在后面会详细谈到
 description: "Cool Blog"    # 随便说点，描述一下
 
 # SNS settings      
-github_username: huxpro     # 你的github账号
-weibo_username: huxpro      # 你的微博账号，底部链接会自动更新的。
+github_username: yongqiang1995     # 你的github账号
+weibo_username: yongqiang1995      # 你的微博账号，底部链接会自动更新的。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
@@ -82,7 +82,7 @@ layout:     post
 title:      "Hello 2015"
 subtitle:   "Hello World, Hello Blog"
 date:       2015-01-29 12:00:00
-author:     "Hux"
+author:     "YongQiang"
 header-img: "img/post-bg-2015.jpg"
 tags:
     - Life
@@ -100,7 +100,7 @@ tags:
 # Sidebar settings
 sidebar: true  #添加侧边栏
 sidebar-about-description: "简单的描述一下你自己"
-sidebar-avatar: /img/avatar-hux.jpg     #你的大头贴，请使用绝对地址.
+sidebar-avatar: https://github.com/yongqiang1995.png     #你的头像，请使用绝对地址.
 ```
 
 侧边栏是响应式布局的，当屏幕尺寸小于992px的时候，侧边栏就会移动到底部。具体请见bootstrap栅格系统 <http://v3.bootcss.com/css/>
@@ -121,7 +121,7 @@ featured-tags: true
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
 ```
 
-唯一需要注意的是`featured-condition-size`: A tag will be featured if the size of it is more than this condition value. （也不知道Hux是想表达什么意思，请作者解答）
+唯一需要注意的是`featured-condition-size`: A tag will be featured if the size of it is more than this condition value. （也不知道是想表达什么意思）
  
 内部有一个条件模板 `{% if tag[1].size > {{site.featured-condition-size}} %}` 是用来做筛选过滤的.
 
@@ -211,7 +211,7 @@ There are a number of tasks it performs like minification of the JavaScript, com
 #### Header Image
 
 标题底图是可以自己选的，看看几篇示例post你就知道如何设置了，详情请见：
-  [issue #6 ](https://github.com/Huxpro/huxpro.github.io/issues/6) asked, **how to make it looks great?**
+  [issue #6 ](https://github.com/yongqiang1995/yongqiang1995.github.io/issues/6) asked, **how to make it looks great?**
   
 标题底图的选取完全是看个人的审美了，我也帮不了你。每一篇文章可以有不同的底图，你想放什么就放什么，最后宽度要够，大小不要太大，否则加载慢啊。
 

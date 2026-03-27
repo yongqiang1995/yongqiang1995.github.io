@@ -9,6 +9,7 @@ _site/
 node_modules/
 vendor/
 _posts/novels/
+*tmp*
 
 # C extensions
 *.so

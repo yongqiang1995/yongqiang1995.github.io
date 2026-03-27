@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "如何 <code>零成本</code> 打造个人博客"
-subtitle: "based Jekyll & github-pages"
+subtitle: "基于 Jekyll & GitHub Pages 搭建个人博客"
 # date: 2025-02-21 10:00:00
 author: "YongQiang"
 header-style: text # 博客 title 如果有图像背景, 需要注释
